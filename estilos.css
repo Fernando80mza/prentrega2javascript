@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ada7a7;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  width: 400px;
+  margin: 20px auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="date"],
+form input[type="number"],
+form select {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+#resultado-validacion {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#reservas {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#reservas h2 {
+  text-align: center;
+  margin:auto
+}
